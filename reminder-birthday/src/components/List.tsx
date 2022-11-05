@@ -1,16 +1,5 @@
 import React, { FC } from 'react';
-
-interface IValueItems {
-  id: number;
-  name: string;
-  age: number;
-  image: string;
-}
-
-interface IValueProps {
-  value: IValueItems[]
-}
-
+import { IValueProps } from '../types';
 
 const List: FC<IValueProps> = (props) => {
   return (
